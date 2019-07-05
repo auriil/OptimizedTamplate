@@ -1,5 +1,7 @@
 /node_modules/
+/debug.log
 /.git/
 /**/package-lock.json
-/**/*.DS_Store
 /.idea/
+/app/js/scripts.min.js
+/app/css/main.min.css
