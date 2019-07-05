@@ -1,4 +1,12 @@
-(function($) {
+// NATIVE
+(function () {
+
+    // code
+
+})();
+
+// JQUERY
+/*(function($) {
 
     $("#owl-demo").owlCarousel({
         loop:true,
@@ -9,4 +17,4 @@
         items : 1
     });
 
-})(jQuery);
+})(jQuery);*/

@@ -45,8 +45,8 @@ gulp.task('styles', function() {
 
 gulp.task('scripts', function() {
 	return gulp.src([
-        'app/libs/jquery/jquery.min.js',
-        'app/libs/owlcarousel/owl.carousel.min.js',
+        // 'app/libs/jquery/jquery.min.js',
+        // 'app/libs/owlcarousel/owl.carousel.min.js',
 		'app/js/common.js',
 		])
 	.pipe(concat('scripts.min.js'))
