@@ -1,39 +1,33 @@
 $font-family-base: "Raleway", sans-serif;
 $grid-breakpoints: (xs: 320, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$wrap-width: 1200px;
+$wrap-padding: 15px;
 
 $text-color: #212529;
 $text-muted: #6c757d !default;
 
-$white:    #fff !default;
-$black:    #000 !default;
+$white: #fff !default;
+$black: #000 !default;
 
-$primary:       #6f42c1 !default;
-$secondary:     #6610f2 !default;
+$primary: #6f42c1 !default;
+$secondary: #6610f2 !default;
 
 $selection-color: $primary;
 $selection-color-text: $white;
 
-//
 // Body
-//
 
-$body-bg:                   $white !default;
-$body-text-color:                $text-color !default;
+$body-bg: $white !default;
+$body-text-color: $text-color !default;
 
-//
 // Links
-//
 
-$link-color:                  $primary !default;
-$link-decoration:             none !default;
-$link-hover-color:            darken($link-color, 15%) !default;
-$link-hover-decoration:       underline !default;
+$link-color: $primary !default;
+$link-decoration: none !default;
+$link-hover-color:  darken($link-color, 15%) !default;
+$link-hover-decoration: underline !default;
 
-//$grid-gutter-width: 30px;
-//$grid-columns: 12;
-//$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
-//
-//$gutter: $grid-gutter-width;
+
 
 
 

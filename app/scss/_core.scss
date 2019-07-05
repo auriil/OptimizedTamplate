@@ -1,0 +1,7 @@
+.wrapper {
+  max-width: calc(#{$wrap-width} - #{$wrap-padding}*2);
+  margin-right: auto;
+  margin-left:  auto;
+  padding-right: $wrap-padding;
+  padding-left:  $wrap-padding;
+}
