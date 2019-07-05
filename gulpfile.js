@@ -46,7 +46,8 @@ gulp.task('styles', function() {
 gulp.task('scripts', function() {
 	return gulp.src([
         // 'app/libs/jquery/jquery.min.js',
-        // 'app/libs/owlcarousel/owl.carousel.min.js',
+        // 'app/libs/owlcarousel/owl.carousel.min.js',  // (jQuery) https://owlcarousel2.github.io/OwlCarousel2/
+        // 'app/libs/lazysizes/lazysizes.min.js',       // (Native) https://github.com/aFarkas/lazysizes
 		'app/js/common.js',
 		])
 	.pipe(concat('scripts.min.js'))
